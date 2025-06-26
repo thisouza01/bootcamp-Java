@@ -14,7 +14,7 @@ public class Ex0003 {
         System.out.println("Digite sua idade");
         var age2 = scanner.nextInt();
 
-        var difAges = age1 - age2;
+        var difAges = Math.abs(age1 - age2);
 
         System.out.printf("A diferença da idade de %s e %s é %s", name1, name2, difAges);
 
