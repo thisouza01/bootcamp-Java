@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class Ex0002 {
 
     public static void main(String[] args){
-        // 1 - recebo o tamanho do lado de um quadradro, calcule e exiba
-        // recebe nome e idade de duas pessoas imprime a diferença das idades
 
         var scanner = new Scanner(System.in);
 
