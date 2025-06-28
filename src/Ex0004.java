@@ -23,9 +23,5 @@ public class Ex0004 {
         } else if (imc > 18.5 && imc < 20){
             System.out.println("Peso ideal");
         } else System.out.println("Acima do peso");
-
-        //informa um numero inicial
-        //entra em um loop para receber outros numeros, so para quando um numero digitado, dividido pelo primeiro informado tiver resto diferente de 0.
-        // numeros menores que o primeiro numero digitado devem ser ignorados
     }
 }
