@@ -16,7 +16,8 @@ public class Ex0005 {
         } while (number2 < number1);
 
         for (var i = number2; i > number1 - 1; i--){
-            System.out.println((i % 2 == 0) ? "Par: " + i : "Impar: " + i);;
+            System.out.println((i % 2 == 0) ? "Par: " + i : "Impar: " + i);
         }
     }
 }
+
