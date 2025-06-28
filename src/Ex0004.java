@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Ex0004 {
 
     public static void main(String[] args){
@@ -8,7 +10,26 @@ public class Ex0004 {
            > 29.9 && <= 34.4 -> Obeso
            > 34.4            -> Obesidade morbida
         */
+        double imc = 0.00;
+        double weigth = 0.00;
+        double heigth = 0.00;
 
+        var scanner = new Scanner(System.in);
+
+        System.out.println("Digite seu peso");
+        weigth = scanner.nextDouble();
+        System.out.println("Digite sua altura");
+        heigth = scanner.nextDouble();
+
+        // calc IMC
+        imc = weigth / (heigth * heigth);
+
+
+        if (imc <= 18.5){
+            System.out.println("Abaixo do peso");
+        } else if (imc > 18.5 && imc < 20){
+            System.out.println("Peso ideal");
+        } else System.out.println("Acima do peso");
         // entre com um numero e um segundo numero maior - programa informa quais sao os impares e pares entre os dois numeros
         // mostra numeros infomados e em ordem decrescente os numeros que foram gerados
 
