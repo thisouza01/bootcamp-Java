@@ -14,12 +14,12 @@ public class Ex0006 {
         int resultDiv= 0;
         do {
             System.out.println("Digite outro numero");
-            resultDiv = 0;
 
             if (number2 < number1) {
                 number2 = scanner.nextInt();
             } else {
                 resultDiv = number2 % number1;
+                number2 = 0;
             }
         } while (resultDiv == 0);
     }
